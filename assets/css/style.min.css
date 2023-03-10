@@ -12,8 +12,7 @@
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+
   background: inherit;
 }
 
@@ -26,6 +25,7 @@
 #footballlottie {
   cursor: pointer;
   margin-top: 2rem;
+  width: 100%;
 }
 .clear {
   *zoom: 1;
@@ -1215,7 +1215,8 @@ nav a.active:after {
   right: 20px;
   width: 24px;
   height: 24px;
-  background: url(../img/sprite.svg) -26px 0 no-repeat;
+  background: url(../img/rightarrow.svg);
+  background-size: 100% 100%;
   transition: all 0.3s ease-out;
 }
 .case-study li:hover:after {
@@ -1235,7 +1236,8 @@ nav a.active:after {
     right: 4px;
     width: 24px;
     height: 24px;
-    background: url(../img/sprite.svg) -26px 0 no-repeat;
+    background: url(../img/rightarrow.svg);
+    background-size: 100% 100%;
     transition: all 0.1s ease;
   }
 }
@@ -1253,7 +1255,8 @@ nav a.active:after {
     right: 4px;
     width: 24px;
     height: 24px;
-    background: url(../img/sprite.svg) -26px 0 no-repeat;
+    background: url(../img/rightarrow.svg);
+    background-size: 100% 100%;
     transition: all 0.1s ease;
   }
 }
@@ -1303,79 +1306,78 @@ nav a.active:after {
     transform: translateY(-50%);
   }
 }
+
 .tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip img {
+  display: none;
+  position: absolute;
+  top: -420%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 160px;
+  border-color: white;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+
+}
+
+.tooltip span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tooltip:hover img {
+  display: block;
+  z-index: 99;
+}
+
+
+.tooltips {
   position: relative;
   text-align: center;
   color: white;
 }
-.tooltip:after {
-  background-color: #2b2b2b;
+.tooltips:after {
+  background-color: #333;
   border-radius: 5px;
   color: #fff;
   font-size: 0.9rem;
   padding: 8px 12px;
   text-align: center;
 }
-.tooltip:after,
-.tooltip:before {
+.tooltips:after,
+.tooltips:before {
   display: none;
   position: absolute;
   z-index: 999;
 }
-.tooltip:before {
+.tooltips:before {
   background-color: #333;
   content: " ";
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
 }
-.tooltip:hover:after,
-.tooltip:hover:before {
+.tooltips:hover:after,
+.tooltips:hover:before {
   display: block;
 }
-.tooltip.top:after {
+.tooltips.top:after {
   content: "Hey there!! 😸";
   top: 0;
   left: 50%;
   transform: translate(-50%, calc(-100% - 10px));
 }
-.tooltip.top:before {
+.tooltips.top:before {
   top: 0;
   left: 50%;
   transform: translate(-50%, calc(-100% - 5px)) rotate(45deg);
 }
-.tooltip.bottom:after {
-  content: "bottom";
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, calc(100% + 10px));
-}
-.tooltip.bottom:before {
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, calc(100% + 5px)) rotate(45deg);
-}
-.tooltip.right:after {
-  content: "right";
-  top: 0;
-  right: 0;
-  transform: translateX(calc(100% + 10px));
-}
-.tooltip.right:before {
-  top: 50%;
-  right: 0;
-  transform: translate(calc(100% + 5px), -50%) rotate(45deg);
-}
-.tooltip.left:after {
-  content: "left";
-  top: 0;
-  left: 0;
-  transform: translateX(calc(-100% - 10px));
-}
-.tooltip.left:before {
-  top: 50%;
-  left: 0;
-  transform: translate(calc(-100% - 5px), -50%) rotate(45deg);
-}
+
 .footer {
   margin: 5rem 0 0;
   padding: 1rem 0 6rem;
@@ -1435,6 +1437,8 @@ img {
   overflow: hidden;
   border-radius: 9px;
   margin-right: 10px;
+  object-fit: cover;
+  height: 100%;
 }
 @media only screen and (max-width: 48em) {
   .introimage {
@@ -1511,8 +1515,23 @@ img {
   -webkit-overflow-scrolling: touch;
 }
 
-.gallery_scroller::-webkit-scrollbar {
+/* .gallery_scroller::-webkit-scrollbar {
   display: none;
+} */
+
+.gallery_scroller::-webkit-scrollbar {
+  height: 9px;
+}
+
+.gallery_scroller::-webkit-scrollbar-track {
+  display: none;
+}
+
+.gallery_scroller::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 2px;
+  background: rgb(255, 255, 255);
 }
 
 .gallery_scroller div {
