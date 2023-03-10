@@ -64,6 +64,8 @@
       })(window, document, "script", "dataLayer", "GTM-KJXTWZR");
     </script>
     <!-- End Google Tag Manager -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
   </head>
   <body class="home">
     <!-- Google Tag Manager (noscript) -->
@@ -89,7 +91,7 @@
                   <a href="about.html" data-text="About">About</a>
                 </li>
                 <li>
-                  <a href="site.html" data-text="Site">Resume</a>
+                  <a href="site.html" data-text="Resume">Resume</a>
                 </li>
               </ul>
             </nav>
@@ -136,12 +138,16 @@
             <h2>Projects</h2>
             <ul>
               <li>
-                <a href="projects/orangeslice.html" class="client-logo orangeslice-logo"
+                <a
+                  href="projects/orangeslice.html"
+                  class="client-logo orangeslice-logo"
                   >Orange Slice</a
                 >
               </li>
               <li>
-                <a href="projects/katalane.html" class="client-logo katalane-logo"
+                <a
+                  href="projects/katalane.html"
+                  class="client-logo katalane-logo"
                   >Aadhaar Kiosk</a
                 >
               </li>
@@ -159,15 +165,12 @@
       </main>
 
       <footer class="footer" role="contentinfo">
-        <div class="row">
+        <div class="row" style="margin-bottom: 6rem">
           <div class="col-xs-12">
-            <img
-              src="assets/img/football net.svg"
-              width="1110px"
-              height="192px"
-              class="footballnet"
-              alt="Football is my life"
-            />
+            <lottie-player
+              id="footballlottie"
+              src="assets/img/football net.json"
+            ></lottie-player>
           </div>
         </div>
         <div class="row">
