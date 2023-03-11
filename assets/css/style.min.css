@@ -34,7 +34,6 @@ iframe {
   cursor: pointer;
   margin-top: 2rem;
   width: 100%;
-  
 }
 .clear {
   *zoom: 1;
@@ -842,11 +841,8 @@ iframe {
   box-sizing: border-box;
   font-smooth: antialiased;
   text-rendering: optimizeLegibility;
-  user-select: none; /* supported by Chrome and Opera */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+
+  -webkit-tap-highlight-color: transparent;
 }
 html {
   font-size: 100%;
@@ -1521,7 +1517,6 @@ video {
     right: 0;
     width: 280px;
     height: 97px;
-    background: url(../assets/img/waves-hero.svg) 0 0 no-repeat;
     z-index: -100;
     overflow: hidden;
   }
