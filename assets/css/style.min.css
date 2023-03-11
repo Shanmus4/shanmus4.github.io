@@ -1588,19 +1588,19 @@ video {
 }
 
 .client-intro {
-  margin: 4rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 .client-intro p {
   text-align: center;
-  margin: 0 auto 6rem;
+  margin: 0 auto 2rem;
   max-width: 712px;
 }
 .client-intro h2 {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
-.client-intro h2:after {
+/* .client-intro h2:after {
   content: "";
   position: absolute;
   margin: 5rem 0;
@@ -1609,27 +1609,27 @@ video {
   height: 16px;
   background: url(../img/sprite.svg) 0 -188px no-repeat;
   transform: translatex(-50%);
-}
+} */
 .step {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 @media only screen and (max-width: 64em) {
   .step {
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 }
 .step p {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 .step h3 {
   font-size: 2.2rem;
   letter-spacing: 1px;
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
-.step h3:after {
+/* .step h3:after {
   content: "";
   position: absolute;
   margin: 4.5rem 0;
@@ -1638,7 +1638,7 @@ video {
   height: 16px;
   background: url(../img/sprite.svg) 0 -188px no-repeat;
   transform: translateY(-50%);
-}
+} */
 
 table {
   border-collapse: collapse;
@@ -1650,13 +1650,18 @@ table {
 
 th,
 td {
-  text-align: center;
+  text-align: left;
   padding: 8px;
   border: none;
 }
 
 th {
   background-color: #f2f2f2;
+}
+
+tr {
+  background-color: rgba(255, 255, 255, 0.057);
+  
 }
 
 tr:hover {
