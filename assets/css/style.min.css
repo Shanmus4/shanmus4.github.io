@@ -822,7 +822,7 @@ iframe {
   background: #93bfa6;
 }
 .orangeslice {
-  background: #cc7356;
+  background: #e67f5a;
 }
 
 @keyframes move {
@@ -1515,7 +1515,7 @@ video {
     right: 0;
     width: 280px;
     height: 97px;
-    background: url(../img/waves-hero.svg) 0 0 no-repeat;
+    background: url(../assets/img/waves-hero.svg) 0 0 no-repeat;
     z-index: -100;
     overflow: hidden;
   }
@@ -1599,8 +1599,9 @@ video {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
+  
 }
-/* .client-intro h2:after {
+.client-intro h2:after {
   content: "";
   position: absolute;
   margin: 5rem 0;
@@ -1609,16 +1610,16 @@ video {
   height: 16px;
   background: url(../img/sprite.svg) 0 -188px no-repeat;
   transform: translatex(-50%);
-} */
+}
 .step {
   margin-top: 1rem;
   margin-bottom: 0rem;
 }
 @media only screen and (max-width: 64em) {
-  .step {
+  /* .step {
     margin-top: 2rem;
     margin-bottom: 1rem;
-  }
+  } */
 }
 .step p {
   margin: 1rem 0;
@@ -1629,7 +1630,7 @@ video {
   position: relative;
   margin-bottom: 2rem;
 }
-/* .step h3:after {
+.step h3:after {
   content: "";
   position: absolute;
   margin: 4.5rem 0;
@@ -1638,7 +1639,7 @@ video {
   height: 16px;
   background: url(../img/sprite.svg) 0 -188px no-repeat;
   transform: translateY(-50%);
-} */
+}
 
 table {
   border-collapse: collapse;
