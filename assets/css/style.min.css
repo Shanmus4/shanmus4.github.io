@@ -5,10 +5,20 @@
   display: table;
 }
 
+img{
+  border-radius: 9px;
+}
+
+iframe{
+  border-radius: 9px;
+}
+
 ::-webkit-scrollbar {
   width: 6.5px;
   height: 5px;
 }
+
+
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -1276,7 +1286,7 @@ nav a.active:after {
 .client-logo:before {
   background: url(../img/sprite.svg) 0 -32px no-repeat;
 }
-.katalane-logo.client-logo:before {
+.aadhaar-logo.client-logo:before {
   background: url(../img/sprite.svg) 0 -83px no-repeat;
 }
 .studio-logo.client-logo:before {
@@ -1608,7 +1618,7 @@ video {
   transform: translatex(-50%);
 }
 .step {
-  margin-top: 8rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 64em) {
