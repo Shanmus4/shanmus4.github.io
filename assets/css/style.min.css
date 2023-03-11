@@ -1323,7 +1323,6 @@ nav a.active:after {
   border-width: 4px;
   border-style: solid;
   border-radius: 10px;
-
 }
 
 .tooltip span {
@@ -1335,7 +1334,6 @@ nav a.active:after {
   display: block;
   z-index: 99;
 }
-
 
 .tooltips {
   position: relative;
@@ -1431,6 +1429,24 @@ img {
 .img-l {
   float: left;
 }
+
+.videocontainer {
+  width: 100%;
+}
+
+video {
+  position: relative;
+  overflow: hidden;
+  top: 15%;
+  width: 100%;
+  border-radius: 9px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  object-fit: contain;
+  
+}
+
 .introimage {
   position: relative;
   top: 48px;
@@ -1440,9 +1456,15 @@ img {
   object-fit: cover;
   height: 100%;
 }
+
 @media only screen and (max-width: 48em) {
   .introimage {
     top: -10px;
+    right: auto;
+  }
+
+  video {
+    top: 10px;
     right: auto;
   }
 }
@@ -1520,7 +1542,7 @@ img {
 } */
 
 .gallery_scroller::-webkit-scrollbar {
-  height: 9px;
+  height: 8px;
 }
 
 .gallery_scroller::-webkit-scrollbar-track {
@@ -1530,7 +1552,6 @@ img {
 .gallery_scroller::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  width: 2px;
   background: rgb(255, 255, 255);
 }
 
