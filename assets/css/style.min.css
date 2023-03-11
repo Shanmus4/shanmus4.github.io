@@ -1164,6 +1164,7 @@ nav a.active:after {
 }
 .intro {
   margin-top: 2rem;
+  padding-right: 3rem;
 }
 @media only screen and (max-width: 48em) {
   .intro {
@@ -1210,7 +1211,7 @@ nav a.active:after {
 .case-study li:first-child {
   border-top: 1px dashed #2b2b2b;
 }
-.case-study li:after {
+.client-logo:after {
   content: "";
   position: absolute;
   margin: 2rem 0;
@@ -1220,8 +1221,10 @@ nav a.active:after {
   background: url(../img/rightarrow.svg);
   background-size: 100% 100%;
   transition: all 0.3s ease-out;
+
+  padding-left: 100px;
 }
-.case-study li:hover:after {
+.client-logo:hover:after {
   right: 0;
 }
 @media only screen and (max-width: 48em) {
@@ -1231,7 +1234,7 @@ nav a.active:after {
   .case-study ul {
     font-size: 1.5rem;
   }
-  .case-study li:after {
+  .client-logo:after {
     content: "";
     position: absolute;
     margin: 1rem 0;
@@ -1250,7 +1253,7 @@ nav a.active:after {
   .case-study ul {
     font-size: 1.1rem;
   }
-  .case-study li:after {
+  .client-logo:after {
     content: "";
     position: absolute;
     margin: 0.6rem 0;
@@ -1274,8 +1277,7 @@ nav a.active:after {
   height: 48px;
   transform: translateY(-50%);
 }
-.orangeslice-logo.client-logo:before,
-.client-logo:before {
+.orangeslice-logo.client-logo:before {
   background: url(../img/sprite.svg) 0 -32px no-repeat;
 }
 .aadhaar-logo.client-logo:before {
@@ -1439,7 +1441,7 @@ img {
 video {
   position: relative;
   overflow: hidden;
-  top: 15%;
+  top: 18%;
   width: 100%;
   border-radius: 9px;
   overflow: hidden;
@@ -1538,12 +1540,12 @@ video {
   -webkit-overflow-scrolling: touch;
 }
 
-/* .gallery_scroller::-webkit-scrollbar {
-  display: none;
-} */
-
 .gallery_scroller::-webkit-scrollbar {
   height: 8px;
+}
+.gallery_scroller:hover::-webkit-scrollbar {
+  height: 12px;
+  transition: all 10s ease;
 }
 
 .gallery_scroller::-webkit-scrollbar-track {
@@ -1560,8 +1562,8 @@ video {
   /* snap align center  */
   scroll-snap-align: center;
   scroll-snap-stop: always;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
   position: relative;
 }
 
@@ -1570,7 +1572,7 @@ video {
   height: 40vw;
   min-width: fit-content;
   width: fit-content;
-  border-radius: 6px;
+  border-radius: 9px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -1662,7 +1664,7 @@ tr:hover {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
 }
 
 h1,
@@ -1712,7 +1714,7 @@ h6 {
 }
 p {
   color: #2b2b2b;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.8;
   margin-bottom: 1.8rem;
