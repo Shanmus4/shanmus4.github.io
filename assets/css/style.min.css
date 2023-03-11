@@ -1232,15 +1232,15 @@ nav a.active:after {
     margin-top: 2rem;
   }
   .case-study ul {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .client-logo:after {
     content: "";
     position: absolute;
     margin: 1rem 0;
     right: 4px;
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     background: url(../img/rightarrow.svg);
     background-size: 100% 100%;
     transition: all 0.1s ease;
@@ -1258,8 +1258,8 @@ nav a.active:after {
     position: absolute;
     margin: 0.6rem 0;
     right: 4px;
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
     background: url(../img/rightarrow.svg);
     background-size: 100% 100%;
     transition: all 0.1s ease;
