@@ -825,7 +825,14 @@ iframe {
   background: #e67f5a;
 }
 
-@keyframes move {
+.figmaiframe {
+  width: 100%;
+  height: 85vh;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* @keyframes move {
   0% {
     background-position: 0 0;
   }
@@ -835,7 +842,7 @@ iframe {
   100% {
     background-position: 0 0;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
