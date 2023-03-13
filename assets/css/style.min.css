@@ -1485,6 +1485,7 @@ video {
 @media only screen and (max-width: 25em){
   .introimage{
     width: 100%;
+    object-fit: contain;
   }
 }
 
