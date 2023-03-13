@@ -13,18 +13,17 @@ iframe {
   border-radius: 9px;
 }
 
-.resume{
+.resume {
   background-color: #181818;
 }
 
-.resumeiframe{
+.resumeiframe {
   border-radius: none;
   height: 80vh;
   width: 100%;
   background-color: #121212;
   border: #00000000;
 }
-
 
 ::-webkit-scrollbar {
   width: 6.5px;
@@ -1482,16 +1481,7 @@ video {
   height: 100%;
 }
 
-@media only screen and (max-width: 25em){
-  .introimage{
-    width: 100%;
-    object-fit: contain;
-  }
-}
-
-
-
-@media only screen and (max-width: 48em) {
+@media screen and (max-width: 48em) {
   .introimage {
     top: -10px;
     right: auto;
