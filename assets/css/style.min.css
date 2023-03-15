@@ -1340,7 +1340,7 @@ nav a.active:after {
 .tooltip img {
   display: none;
   position: absolute;
-  top: -420%;
+  top: -480%;
   left: 50%;
   transform: translateX(-50%);
   max-width: 160px;
@@ -1352,8 +1352,10 @@ nav a.active:after {
 
 .tooltip span {
   display: inline-block;
-  vertical-align: middle;
 }
+
+
+
 
 .tooltip:hover img {
   display: block;
