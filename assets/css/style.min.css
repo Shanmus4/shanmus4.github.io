@@ -1354,9 +1354,6 @@ nav a.active:after {
   display: inline-block;
 }
 
-
-
-
 .tooltip:hover img {
   display: block;
   z-index: 99;
