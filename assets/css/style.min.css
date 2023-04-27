@@ -1389,7 +1389,7 @@ nav a.active:after {
   display: block;
 }
 .tooltips.top:after {
-  content: "Hey there!! 😸";
+  content: "How you doin' 😉";
   top: 0;
   left: 50%;
   transform: translate(-50%, calc(-100% - 10px));
