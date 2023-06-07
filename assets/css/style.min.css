@@ -821,12 +821,12 @@ iframe {
   }
 }
 .home {
-  background: #6b7a88;
+  background: #6e8494;
   /* background-size: 700% 100% !important; */
   transform: translate3d(0, 0, 0);
 }
 .about {
-  background: #5385c2;
+  background: #5e92d2;
   /* background-size: 400% 100% !important; */
   transform: translate3d(0, 0, 0);
 }
