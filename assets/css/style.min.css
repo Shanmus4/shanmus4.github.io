@@ -821,7 +821,7 @@ iframe {
   }
 }
 .home {
-  background: #88a3b7;
+  background: #7ba0b9;
   /* background-size: 700% 100% !important; */
   transform: translate3d(0, 0, 0);
 }
@@ -1223,7 +1223,6 @@ nav a.active:after {
   position: relative;
   font-size: 1.5rem;
   font-weight: 200;
-
 }
 .view-work:after {
   content: "";
