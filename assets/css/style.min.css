@@ -1227,7 +1227,7 @@ nav a.active:after {
   font-size: 1.5rem;
   font-weight: 200;
 }
-.view-work:after {
+/* .view-work:after {
   content: "";
   position: absolute;
   top: 1.23rem;
@@ -1237,7 +1237,7 @@ nav a.active:after {
   background: url(../img/sprite.svg) 0 0 no-repeat;
   -khtml-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 
 .right-arrow {
   width: 1rem;
@@ -1738,7 +1738,7 @@ h3 {
   line-height: 1.5;
 }
 h1 {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   line-height: 1.1;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
