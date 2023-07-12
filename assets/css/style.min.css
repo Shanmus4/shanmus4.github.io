@@ -1364,6 +1364,33 @@ nav a.active:after {
   }
 }
 
+.tooltip-project {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-project img {
+  display: none;
+  position: absolute;
+  top: -300%;
+  left: 140%;
+  transform: translateX(-50%);
+  max-width: 320px;
+  border-color: white;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.tooltip-project span {
+  display: inline-block;
+}
+
+.tooltip-project:hover img {
+  display: block;
+  z-index: 99;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
