@@ -833,8 +833,8 @@ iframe {
 .aadhaar {
   background: #979fff;
 }
-.orangeslice {
-  background: #e67f5a;
+.campushub {
+  background: #979fff;
 }
 
 .figmaiframe {
@@ -1330,7 +1330,7 @@ nav a.active:after {
   height: 48px;
   transform: translateY(-50%);
 }
-.orangeslice-logo.client-logo:before {
+.campushub-logo.client-logo:before {
   background: url(../img/sprite.svg) 0 -32px no-repeat;
 }
 .aadhaar-logo.client-logo:before {
@@ -1372,8 +1372,8 @@ nav a.active:after {
 .tooltip-project img {
   display: none;
   position: absolute;
-  top: -280%;
-  left: 140%;
+  top: -278%;
+  left: 141%;
   transform: translateX(-50%);
   max-width: 320px;
   border-color: white;
