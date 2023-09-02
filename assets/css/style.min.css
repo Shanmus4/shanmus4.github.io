@@ -1372,8 +1372,8 @@ nav a.active:after {
 .tooltip-project img {
   display: none;
   position: absolute;
-  top: -278%;
-  left: 141%;
+  top: -275%;
+  left: 600px;
   transform: translateX(-50%);
   max-width: 320px;
   border-color: white;
