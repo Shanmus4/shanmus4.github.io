@@ -821,20 +821,20 @@ iframe {
   }
 }
 .home {
-  background: #5590b7;
+  background: #1f1f1f;
   /* background-size: 700% 100% !important; */
   transform: translate3d(0, 0, 0);
 }
 .about {
-  background: #4f86d4;
+  background: #5993e4;
   /* background-size: 400% 100% !important; */
   transform: translate3d(0, 0, 0);
 }
 .aadhaar {
-  background: #979fff;
+  background: #9299e3;
 }
 .campushub {
-  background: #979fff;
+  background: #9299e3;
 }
 
 .figmaiframe {
@@ -968,6 +968,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
+  color: #ffffff;
 }
 b,
 strong {
@@ -1269,13 +1270,13 @@ nav a.active:after {
   margin: 0;
 }
 .case-study li {
-  border-bottom: 1px dashed #2b2b2b;
+  border-bottom: 1px dashed #ffffff;
   padding: 2rem 0;
   position: relative;
   display: block;
 }
 .case-study li:first-child {
-  border-top: 1px dashed #2b2b2b;
+  border-top: 1px dashed #ffffff;
 }
 .client-logo:after {
   content: "";
