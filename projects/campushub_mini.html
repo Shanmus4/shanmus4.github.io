@@ -176,13 +176,55 @@
         position: absolute;
         margin: 2rem 0;
         right: 20px;
-
-        background: url(../assets/img/rightarrow_black.svg);
         width: 24px;
         height: 24px;
+        background: url(../assets/img/rightarrow_black.svg);
         background-size: 100% 100%;
         transition: all 0.3s ease-out;
+
         padding-left: 100px;
+      }
+      .client-logo:hover:after {
+        right: 0;
+      }
+
+      @media only screen and (max-width: 48em) {
+        .case-study {
+          margin-top: 2rem;
+        }
+        .case-study ul {
+          font-size: 1.3rem;
+        }
+        .client-logo:after {
+          content: "";
+          position: absolute;
+          margin: 1rem 0;
+          right: 4px;
+          width: 16px;
+          height: 16px;
+          background: url(../assets/img/rightarrow_black.svg);
+          background-size: 100% 100%;
+          transition: all 0.1s ease;
+        }
+      }
+      @media only screen and (max-width: 25em) {
+        .case-study {
+          margin-top: 2rem;
+        }
+        .case-study ul {
+          font-size: 1.1rem;
+        }
+        .client-logo:after {
+          content: "";
+          position: absolute;
+          margin: 0.6rem 0;
+          right: 4px;
+          width: 14px;
+          height: 14px;
+          background: url(../assets/img/rightarrow_black.svg);
+          background-size: 100% 100%;
+          transition: all 0.1s ease;
+        }
       }
     </style>
   </head>
