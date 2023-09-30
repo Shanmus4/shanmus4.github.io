@@ -26,7 +26,7 @@
     <link rel="preload" href="../assets/css/style.min.css" as="style" />
     <meta charset="utf-8" />
     <link rel="manifest" href="manifest.json" />
-    <title>CampusHub | Shanmu - UX Designer</title>
+    <title>CampusHub(minified) | Shanmu - UX Designer</title>
     <meta name="theme-color" content="#979fff" />
     <link rel="canonical" href="https://shanmus4.art" />
 
@@ -141,6 +141,50 @@
       })(window, document, "script", "dataLayer", "GTM-KJXTWZR");
     </script>
     <!-- End Google Tag Manager -->
+
+    <style>
+      h1,
+      h2,
+      h3,
+      a,
+      p {
+        color: #181818;
+      }
+
+      a:hover {
+        color: #454545;
+      }
+
+      .nav a:hover:after,
+      nav a.active:after {
+        -webkit-text-decoration-color: #181818;
+        text-decoration-color: #181818;
+      }
+
+      .case-study li {
+        border-bottom: 1px dashed #181818;
+        padding: 2rem 0;
+        position: relative;
+        display: block;
+      }
+      .case-study li:first-child {
+        border-top: 1px dashed #181818;
+      }
+
+      .client-logo:after {
+        content: "";
+        position: absolute;
+        margin: 2rem 0;
+        right: 20px;
+
+        background: url(../assets/img/rightarrow_black.svg);
+        width: 24px;
+        height: 24px;
+        background-size: 100% 100%;
+        transition: all 0.3s ease-out;
+        padding-left: 100px;
+      }
+    </style>
   </head>
 
   <body class="campushub">
@@ -161,15 +205,38 @@
             <nav class="nav" role="navigation">
               <ul>
                 <li>
-                  <a href="#" class="active" data-text="Work">CH</a>
+                  <a
+                    style="color: #181818"
+                    href="#"
+                    class="active"
+                    data-text="Work"
+                    >CH</a
+                  >
                 </li>
                 <li>
-                  <a href="../index.html#work" data-text="Home">Work</a>
+                  <a
+                    style="color: #181818"
+                    href="../index.html#work"
+                    data-text="Home"
+                    >Work</a
+                  >
                 </li>
                 <li>
-                  <a href="../about.html" data-text="About">About</a>
+                  <a
+                    style="color: #181818"
+                    href="../about.html"
+                    data-text="About"
+                    >About</a
+                  >
                 </li>
-                <li><a href="../resume.html" data-text="Resume">Resume</a></li>
+                <li>
+                  <a
+                    style="color: #181818"
+                    href="../resume.html"
+                    data-text="Resume"
+                    >Resume</a
+                  >
+                </li>
               </ul>
             </nav>
           </div>
@@ -183,12 +250,11 @@
             <h1>CampusHub</h1>
             <p class="intro-text">
               This is a case study on an application I designed for helping
-              educational institutions manage their day to day operations. This
-              is a short version focusing on the main parts of my project<br />
-              <a
-                style="color: white; font-size: x-large"
-                href="../projects/campushub.html"
-                >Click to view the EXTREMELY detailed case study ⟶</a
+              educational institutions manage their day to day operations.
+              <br />This is a short version focusing on the main parts of my
+              project<br />
+              <a style="font-size: x-large" href="../projects/campushub.html"
+                >Click to view the<br />detailed case study ⟶</a
               >
               <br />
             </p>
@@ -206,69 +272,38 @@
           </div>
         </div>
 
-        <div class="row step">
-          <div class="col-xs-12">
-            <h3>Case Study</h3>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Introduction</h2>
+            <p>
+              Educational institutions struggle with non standard communication
+              channels, manual administrative tasks, and disorganized classroom
+              management, leading to missed announcements, limited
+              student-faculty collaboration, communication gaps and overall a
+              poor management system. To challenge is to come up with a solution
+              that addresses the needs of the educational institutions
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
             <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 3.png"
-              alt="CampusHub Case Study 3"
+              class="introimage"
+              src="../assets/img/project images/CampusHub_mini/Campushub Intro.png"
+              alt="Education management system"
             />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 4.png"
-              alt="CampusHub Case Study 4"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 5.png"
-              alt="CampusHub Case Study 5"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 6.png"
-              alt="CampusHub Case Study 6"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 7.png"
-              alt="CampusHub Case Study 7"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 8.png"
-              alt="CampusHub Case Study 8"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 9.png"
-              alt="CampusHub Case Study 9"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 10.png"
-              alt="CampusHub Case Study 10"
-            />
-            <iframe
-              class="figmaiframe"
-              src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDtNcbUnrbWjO7vMAQCLrSm%2FProject-file%3Fpage-id%3D811%253A2%26type%3Ddesign%26node-id%3D913-7239%26viewport%3D-6518%252C-2692%252C0.39%26t%3DX3bN7bUaMiTkZpSp-1%26scaling%3Dscale-down%26starting-point-node-id%3D913%253A7239%26show-proto-sidebar%3D1%26mode%3Ddesign"
-              allowfullscreen
-            ></iframe>
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 11.png"
-              alt="CampusHub Case Study 11"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 12.png"
-              alt="CampusHub Case Study 12"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 13.png"
-              alt="CampusHub Case Study 13"
-            />
-            <img
-              src="../assets/img/project images/CampusHub_mini/Small CampusHub Case Study 14.png"
-              alt="CampusHub Case Study 14"
-            />
-            <iframe
-              class="figmaiframe"
-              src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDtNcbUnrbWjO7vMAQCLrSm%2FProject-file%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DyuC3TMQ1CVU9YPel-1"
-              allowfullscreen
-            ></iframe>
           </div>
         </div>
+        <!-- 
+        <iframe
+          class="figmaiframe"
+          src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDtNcbUnrbWjO7vMAQCLrSm%2FProject-file%3Fpage-id%3D811%253A2%26type%3Ddesign%26node-id%3D913-7239%26viewport%3D-6518%252C-2692%252C0.39%26t%3DX3bN7bUaMiTkZpSp-1%26scaling%3Dscale-down%26starting-point-node-id%3D913%253A7239%26show-proto-sidebar%3D1%26mode%3Ddesign"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          class="figmaiframe"
+          src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDtNcbUnrbWjO7vMAQCLrSm%2FProject-file%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DyuC3TMQ1CVU9YPel-1"
+          allowfullscreen
+        ></iframe> -->
 
         <div class="row">
           <div class="col-xs-12 col-sm-6">
@@ -295,7 +330,7 @@
                   href="../projects/aadhaar_mini.html"
                   class="client-logo aadhaar-logo"
                   ><span class="tooltip-project" data-tooltip="aadhaar"
-                    ><span style="color: white">Aadhaar Kiosk UX</span
+                    ><span>Aadhaar Kiosk UX</span
                     ><img
                       src="../assets/img/project images/Aadhaar/Cover.png"
                       alt="aadhaar cover" /></span
@@ -315,20 +350,32 @@
       </main>
 
       <footer class="footer" role="contentinfo">
+        <!-- <div class="row" style="margin-bottom: 6rem">
+          <div class="col-xs-12">
+            <lottie-player
+              id="footballlottie"
+              src="assets/img/football net.json"
+            ></lottie-player>
+          </div>
+        </div> -->
+
         <div class="row">
           <div class="col-xs-12 col-sm-6">
-            <h3>Favourite Quote</h3>
+            <h3>Tool Knowledge</h3>
             <p class="quote">
-              "We don't read and write poetry because it's cute. We read and
-              write poetry because we are members of the human race. And the
-              human race is filled with passion. And medicine, law, business,
-              engineering, these are noble pursuits and necessary to sustain
-              life. But poetry, beauty, romance, love, these are what we stay
-              alive for" <br />
-              <span class="font-heavy"
-                >Robin Williams :: Dead Poets Society</span
-              >
+              ~Figma ~Adobe CC(PS, XD, AE, AI) ~Webflow ~Lottiefiles ~Frontend
+              Dev
             </p>
+            <p>
+              This website was designed and developed by<br />
+              yours truly 🧑🏻‍💻
+            </p>
+
+            <!-- <h3>Skills</h3>
+            <p class="quote">
+              ~Quick Learning ~Critical thinking ~Problem solving ~Analytical
+              thinking ~Collaboration ~Communication
+            </p> -->
           </div>
           <div class="col-xs-12 col-sm-3">
             <h3>More Work</h3>
