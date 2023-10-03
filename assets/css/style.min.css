@@ -834,6 +834,12 @@ iframe {
   background: #9299e3;
 }
 .campushub {
+  background: #9299e3;
+}
+.aadhaarmini {
+  background: #fafaff;
+}
+.campushubmini {
   background: #fafaff;
 }
 
@@ -1789,7 +1795,7 @@ h1 br {
   line-height: 1rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 3.4rem;
   margin: 2rem 0;
 }
 .my-gallery h2,

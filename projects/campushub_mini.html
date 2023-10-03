@@ -226,10 +226,16 @@
           transition: all 0.1s ease;
         }
       }
+
+      ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #181818;
+      }
     </style>
   </head>
 
-  <body class="campushub">
+  <body class="campushubmini">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -315,7 +321,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12">
             <h2>Introduction</h2>
             <p>
               Educational institutions struggle with non standard communication
@@ -325,8 +331,7 @@
               poor management system. To challenge is to come up with a solution
               that addresses different needs of educational institutions.
             </p>
-          </div>
-          <div class="col-xs-12 col-sm-6">
+
             <img
               class="introimage"
               src="../assets/img/project images/CampusHub_mini/Campushub Intro.png"
@@ -347,7 +352,7 @@
             <img
               class="introimage"
               src="../assets/img/project images/CampusHub_mini/Campushub Design process.png"
-              alt="Education management system"
+              alt="Design process"
             />
           </div>
         </div>
@@ -360,10 +365,14 @@
               presented only the insights here
             </p>
           </div>
-          <div class="col-xs-12">
-            <h2>Survey Insights</h2>
 
-            <ul style="list-style: decimal">
+          <div class="col-xs-12">
+            <h3>Survey</h3>
+            <p>
+              I sent out survey forms to understand what tools are being used
+              for different activities in different institutions
+            </p>
+            <ul style="list-style: decimal; list-style-position: inside">
               <li>
                 Colleges on an average use 4 different tools for carrying out
                 different tasks
@@ -373,42 +382,262 @@
                 offline
               </li>
               <li>
-                Even during Covid era(online classes), but much variety of tools
+                Even during Covid era(online classes), not much variety of tools
                 were not used in schools
               </li>
               <li>
-                Inefficient usage of tools, juggling multiple tools - a single
-                platform is required to carry out multiple activities
+                Inefficient usage of tools, juggling between multiple tools was
+                very common
               </li>
             </ul>
           </div>
 
           <div class="col-xs-12">
-            <h2>Competitor Analysis</h2>
+            <h3>Competitor Analysis</h3>
             <img
               src="../assets/img/project images/CampusHub_mini/Campushub competitors.png"
               alt="competitors"
             />
 
-            <ul style="list-style: decimal">
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>MS Teams had the most features</li>
+              <li>Google products had good cross app connectivity</li>
+              <li>Whatsapp had the best chat related features</li>
               <li>
-                Colleges on an average use 4 different tools for carrying out
-                different tasks
+                Many colleges used private portals for sending out announcements
               </li>
               <li>
-                Schools do not use much variety tools because most tasks are
-                offline
-              </li>
-              <li>
-                Even during Covid era(online classes), but much variety of tools
-                were not used in schools
-              </li>
-              <li>
-                Inefficient usage of tools, juggling multiple tools - a single
-                platform is required to carry out multiple activities
+                Google classroom had good features, but I was able to think of
+                many that could have been added
               </li>
             </ul>
           </div>
+
+          <div class="col-xs-12">
+            <h3>Observational Study</h3>
+
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>Marking attendance takes time (class of 56 students).</li>
+              <li>Assignment marks were shared publicly.</li>
+              <li>
+                Faculty did not inform students if there was going to be a delay
+                or if they are not coming to class that day.
+              </li>
+              <li>Timetable was pinned on the bulletin board.</li>
+              <li>
+                Study resources (notes and stuff) were shared through WhatsApp
+                or cloud links.
+              </li>
+              <li>
+                Communication to students from faculty happened through class
+                leader/ class representative.
+              </li>
+              <li>Submissions were done both online and offline.</li>
+              <li>
+                Students forgot deadlines and had to confirm with classmates.
+              </li>
+              <li>
+                Late submission of assignments happened a lot - faculty did not
+                track.
+              </li>
+              <li>Faculty had a maximum of 4 classes a day.</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Interviews</h3>
+            <p>
+              Participants: 7 students, 3 faculty, 1 administrator - from
+              different colleges and schools<br />
+            </p>
+            <p><br />Important Insights - Faculty</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>Students' messages get lost in WhatsApp chats.</li>
+              <li>
+                Sometimes I forget deadlines myself because handling many
+                subjects.
+              </li>
+              <li>
+                Scheduling conflicts: Sometimes I forget I have a meeting
+                already and schedule another meeting.
+              </li>
+              <li>
+                Assignments submissions came through different places like
+                Gmail, drive, teams. Looking up previous work of students
+                required a lot of searching.
+              </li>
+              <li>
+                Not easy to let students know of any announcements like "I'll be
+                late to class," "no class today," or "you can meet me at my
+                cabin now."
+              </li>
+              <li>
+                Grading students is a hassle; I have to consider internal marks
+                so I have to look up old grades as well.
+              </li>
+            </ul>
+
+            <p><br />Important Insights - Students</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                Miss out on important announcements because mail not checked
+                regularly.
+              </li>
+              <li>Following class schedule.</li>
+              <li>Remembering assignment deadlines.</li>
+              <li>Checking attendance.</li>
+              <li>
+                Getting in touch with faculties - WhatsApp feels too informal.
+              </li>
+              <li>Sharing online submission with faculty.</li>
+              <li>
+                Too many tools, too many portals, too many accounts, too many
+                passwords
+              </li>
+            </ul>
+
+            <p><br />Important Insights - Admin</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>Announcements sent using distribution lists.</li>
+              <li>
+                End sem results were published through college portal, marks
+                received from faculty through excel sheet - updated by IT team -
+                double work.
+              </li>
+              <li>
+                It is role of IT team to create ID for students and update in
+                database, this is a time extensive job and there are tools
+                already in use for that.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Define</h2>
+            <p>
+              The following shows the accumulation and synthesis of research
+              data
+            </p>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Problem Statement</h3>
+            <p style="font-size: larger">
+              In educational institutions, students and faculty face challenges
+              in efficient communication, collaboration, and task management.
+              There is a need for a comprehensive classroom management platform
+              that streamlines administrative processes, improves communication
+              between faculty and students, and provides essential tools for
+              tasks like assignment tracking, timetable management, grading
+              among others.
+            </p>
+            <p>The 5 W's</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                What - A platform that streamlines everyday activities in an
+                institutional setting
+              </li>
+              <li>Who - Faculty, Students, Administrators</li>
+              <li>
+                Why - Inefficient communication, collaboration and task
+                management. Multiple tools leading to confusion
+              </li>
+              <li>Where - Educational institutions</li>
+              <li>
+                When - During different activities like attendance marking,
+                submitting assignments, grading assignments etc.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Persona</h3>
+            <p>
+              Based on my research data, I have added all the pain points and
+              goals for each user group
+            </p>
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <h3 style="font-size: large">Faculty</h3>
+            <img
+              src="../assets/img/project images/CampusHub_mini/Persona Faculty.png"
+              alt="Faculty Persona"
+            />
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <h3 style="font-size: large">Student</h3>
+            <img
+              src="../assets/img/project images/CampusHub_mini/Persona Student.png"
+              alt="Student Persona"
+            />
+          </div>
+          <div class="col-xs-12">
+            <p>
+              <br />At this point, it was clear to me that a digital
+              intervention was required. To figure out if it was going to be
+              mobile app or desktop web app, I went back to students and faculty
+              to learn how they use mobile and desktop versions for different
+              tasks
+            </p>
+            <img
+              src="../assets/img/project images/CampusHub_mini/mobile vs desktop.png"
+              alt="mobile vs desktop"
+            />
+            <p>
+              From this I understood that the output should be a cross platform
+              application
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Ideation</h2>
+            <p>
+              I started out by noting the must have features that I gathered
+              from my personas
+            </p>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Must have features</h3>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>Dashboard and notifications.</li>
+              <li>Weekly activity tracking.</li>
+              <li>Upcoming task management.</li>
+              <li>Assignment tracking and marking.</li>
+              <li>Timetable/schedule management.</li>
+              <li>Communication channels.</li>
+              <li>Attendance tracking and marking.</li>
+              <li>Grade marking and checking.</li>
+              <li>Resource repository.</li>
+              <li>Faculty availability.</li>
+              <li>Assignment submission.</li>
+              <li>Announcements and events notifications.</li>
+              <li>Gamification.</li>
+              <li>Deadline management.</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Affintity Mapping</h3>
+            <p>
+              I brainstormed how to implement the above must have features and
+              jotted whatever came to mind on notes. Then I did an affinity
+              mapping task to categorize all my cluttered ideas
+            </p>
+            <img
+              src="../assets/img/project images/CampusHub_mini/affinity map.png"
+              alt="affinity mapping"
+            />
+            <p>This activity gave me clarity on my app structure</p>
+          </div>
+
+          
         </div>
 
         <!-- 
@@ -449,8 +678,7 @@
                   href="../projects/aadhaar_mini.html"
                   class="client-logo aadhaar-logo"
                   ><span class="tooltip-project" data-tooltip="aadhaar"
-                    ><span>Aadhaar Kiosk UX</span
-                    ><img
+                    >Aadhaar Kiosk UX<img
                       src="../assets/img/project images/Aadhaar/Cover.png"
                       alt="aadhaar cover" /></span
                 ></a>
