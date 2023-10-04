@@ -26,7 +26,7 @@
     <link rel="preload" href="../assets/css/style.min.css" as="style" />
     <meta charset="utf-8" />
     <link rel="manifest" href="manifest.json" />
-    <title>Aadhaar Kiosk(minified) | Shanmu - UX Designer</title>
+    <title>Aadhaar Kiosk | Short Version</title>
     <meta name="theme-color" content="#979fff" />
     <link rel="canonical" href="https://shanmus4.art" />
 
@@ -141,6 +141,98 @@
       })(window, document, "script", "dataLayer", "GTM-KJXTWZR");
     </script>
     <!-- End Google Tag Manager -->
+
+    <style>
+      h1,
+      h2,
+      h3,
+      a,
+      p {
+        color: #181818;
+      }
+
+      a:hover {
+        color: #454545;
+      }
+
+      .nav a:hover:after,
+      nav a.active:after {
+        -webkit-text-decoration-color: #181818;
+        text-decoration-color: #181818;
+      }
+
+      .case-study li {
+        border-bottom: 1px dashed #181818;
+        padding: 2rem 0;
+        position: relative;
+        display: block;
+      }
+      .case-study li:first-child {
+        border-top: 1px dashed #181818;
+      }
+
+      .client-logo:after {
+        content: "";
+        position: absolute;
+        margin: 2rem 0;
+        right: 20px;
+        width: 24px;
+        height: 24px;
+        background: url(../assets/img/rightarrow_black.svg);
+        background-size: 100% 100%;
+        transition: all 0.3s ease-out;
+
+        padding-left: 100px;
+      }
+      .client-logo:hover:after {
+        right: 0;
+      }
+
+      @media only screen and (max-width: 48em) {
+        .case-study {
+          margin-top: 2rem;
+        }
+        .case-study ul {
+          font-size: 1.3rem;
+        }
+        .client-logo:after {
+          content: "";
+          position: absolute;
+          margin: 1rem 0;
+          right: 4px;
+          width: 16px;
+          height: 16px;
+          background: url(../assets/img/rightarrow_black.svg);
+          background-size: 100% 100%;
+          transition: all 0.1s ease;
+        }
+      }
+      @media only screen and (max-width: 25em) {
+        .case-study {
+          margin-top: 2rem;
+        }
+        .case-study ul {
+          font-size: 1.1rem;
+        }
+        .client-logo:after {
+          content: "";
+          position: absolute;
+          margin: 0.6rem 0;
+          right: 4px;
+          width: 14px;
+          height: 14px;
+          background: url(../assets/img/rightarrow_black.svg);
+          background-size: 100% 100%;
+          transition: all 0.1s ease;
+        }
+      }
+
+      ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #181818;
+      }
+    </style>
   </head>
 
   <body class="aadhaarmini">
@@ -161,15 +253,38 @@
             <nav class="nav" role="navigation">
               <ul>
                 <li>
-                  <a href="#" class="active" data-text="Work">AK</a>
+                  <a
+                    style="color: #181818"
+                    href="#"
+                    class="active"
+                    data-text="Work"
+                    >AK</a
+                  >
                 </li>
                 <li>
-                  <a href="../index.html#work" data-text="Home">Work</a>
+                  <a
+                    style="color: #181818"
+                    href="../index.html#work"
+                    data-text="Home"
+                    >Work</a
+                  >
                 </li>
                 <li>
-                  <a href="../about.html" data-text="About">About</a>
+                  <a
+                    style="color: #181818"
+                    href="../about.html"
+                    data-text="About"
+                    >About</a
+                  >
                 </li>
-                <li><a href="../resume.html" data-text="Resume">Resume</a></li>
+                <li>
+                  <a
+                    style="color: #181818"
+                    href="../resume.html"
+                    data-text="Resume"
+                    >Resume</a
+                  >
+                </li>
               </ul>
             </nav>
           </div>
@@ -186,18 +301,10 @@
               important points and final design<br /><br />You can view the
               detailed case study<br />
               <a
-                style="
-                  color: white;
-                  font-size: x-large;
-                  text-decoration: underline;
-                "
+                style="font-size: x-large; text-decoration: underline"
                 href="../projects/aadhaar.html"
-                >by clicking here</a
-              ><img
-                class="right-arrow"
-                src="../assets/img/rightarrow.svg"
-                alt="rightarrow"
-              />
+                >by clicking here ⟶</a
+              >
             </p>
           </div>
         </div>
@@ -213,64 +320,208 @@
           </div>
         </div>
 
-        <div class="row step">
+        <div class="row">
           <div class="col-xs-12">
-            <h3>Case Study</h3>
+            <h2>Introduction</h2>
+            <p>
+              The Aadhaar Kiosk project is a solution to the real-world problem
+              of the Aadhaar enrolment and updation process. This solution gives
+              users control over their identity information and allows
+              flexibility over Aadhaar related processes
+            </p>
             <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 2.png"
-              alt="Case study 1"
+              class="introimage"
+              src="../assets/img/project images/Aadhaar_mini/Kiosk Image.png"
+              alt="Kiosk Image"
             />
+            <p>
+              <br />
+              Project Type - College Project(Group of 2) <br />Duration - 1
+              month <br />
+              My roles - Research, Ideation, UI Design, Testing
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Project Brief</h2>
+            <p>
+              UIDAI intends to create next generation enrolment and update
+              kiosk, which can be located at locations being frequently visited
+              by the residents. Your task is to design a low cost Kiosk using
+              industrial design best practices, which is inclusive, usable by
+              both rural and urban residents.
+            </p>
+            <p>
+              The project brief was obtained from Smart India Hackathon 2022
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
             <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 3.png"
-              alt="Case study 2"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 4.png"
-              alt="Case study 3"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 5.png"
-              alt="Case study 4"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 6.png"
-              alt="Case study 5"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 7.png"
-              alt="Case study 6"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 8.png"
-              alt="Case study 7"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 9.png"
-              alt="Case study 8"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 10.png"
-              alt="Case study 9"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 11.png"
-              alt="Case study 10"
-            />
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 12.png"
-              alt="Case study 11"
-            />
-            <iframe
-              class="figmaiframe"
-              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU7BpwRic4mtW05EghhiyDl%2FAadhaar-Kiosk---Screens%3Fpage-id%3D2%253A2%26node-id%3D10%253A2%26viewport%3D155%252C422%252C0.06%26scaling%3Dcontain%26starting-point-node-id%3D10%253A2%26show-proto-sidebar%3D1"
-              allowfullscreen
-            ></iframe>
-            <img
-              src="../assets/img/project images/Aadhaar_mini/Small Aadhaar Case Study 13.png"
-              alt="Case study 12"
+              class="introimage"
+              src="../assets/img/project images/Aadhaar_mini/SIH.png"
+              alt="SIH Logo"
             />
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Research</h2>
+            <p>
+              You can find all my research data in the detailed version, I have
+              presented only the insights here
+            </p>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Current System</h3>
+            <img
+              src="../assets/img/project images/Aadhaar_mini/Current system flow.png"
+              alt="Current system flow"
+            />
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Desk Research</h3>
+            <p>Important insights gathered from Aadhaar website:</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                Aadhaar can be obtained by any resident in India - nationality
+                need not be Indian. Aadhaar can be obtained by NRIs as well.
+              </li>
+              <li>
+                Self Service Update Portal(SSUP) only allows change of address
+                on Aadhaar. For any other update, enrolment center needs to be
+                visited.
+              </li>
+              <li>For enrolment, users need to visit Aadhaar centers.</li>
+              <li>
+                Babies age from 0-3 years have unique Aadhaar called Baal
+                Aadhaar.
+              </li>
+              <li>
+                Date of birth can be updated only once in a lifetime, valid
+                exceptions allowed.
+              </li>
+              <li>Children below age of 5 need not register biometric.</li>
+              <li>Biometric needs to be updated at age of 15 mandatorily.</li>
+              <li>
+                Demographic information required: <br />
+                ~Name <br />
+                ~Date of Birth <br />
+                ~Gender <br />
+                ~Address <br />~Parent/Guardian details (required for minor)
+                <br />
+                ~Phone <br />
+                ~Email (optional)
+              </li>
+              <li>
+                Biometric Information required: <br />~Photo <br />
+                ~Fingerprints(all fingers) <br />
+                ~Iris <br />
+              </li>
+            </ul>
+
+            <p>
+              <br />
+              A flow diagram of current user flow for enrolment and updation was
+              mapped, please check out the detailed version for the same
+            </p>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Contextual Inquiry</h3>
+            <p>Key insights from observation</p>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                Each application process takes approximately 20 minutes to 30
+                minutes.
+              </li>
+              <li>
+                To this day(29/05/2023), a minimum of 50 applicants visit
+                Aadhaar center every day.
+              </li>
+              <li>
+                Many applicants in rural areas do multiple visits because of
+                missing/forgotten documents.
+              </li>
+              <li>
+                A document reviewer person is always available at the center to
+                check validity of documents.
+              </li>
+              <li>
+                Differently abled people need to visit center as they have
+                special needs and different procedures
+              </li>
+              <li>
+                The fee for Aadhaar processes is ₹50 for demographic update and
+                ₹100 for biometric update. Enrolment is free of cost.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12">
+            <h3>Interview</h3>
+            <p>
+              Interviews were conducted with both rural and urban population
+            </p>
+            <h3 style="font-size: large">Rural Population</h3>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                Aadhaar centres are not very accessible in rural areas so they
+                have to travel to get to a location.
+              </li>
+              <li>
+                Smartphones of some of the applicants were configured to display
+                in local language, not English.
+              </li>
+              <li>
+                Some people did not really understand what Aadhaar is, they just
+                wanted Aadhaar for its various benefits.
+              </li>
+              <li>
+                From where we visited, there was one e-seva kendra every 60km.
+              </li>
+              <li>
+                Each rural area did not have their own centres, only the nearby
+                towns had centres.
+              </li>
+              <li>
+                The fee for Aadhaar processes is ₹50 for demographic update and
+                ₹100 for biometric update. Enrolment is free of cost.
+              </li>
+            </ul>
+
+            <h3 style="font-size: large">Urban Population</h3>
+            <ul style="list-style: decimal; list-style-position: inside">
+              <li>
+                Users understood how to work with Aadhaar website, and how to
+                book appointments.
+              </li>
+              <li>
+                Urban people did not have too much trouble finding Aadhaar
+                centres in nearby locations.
+              </li>
+              <li>
+                Aadhaar is usually a one time process, once enrolled they did
+                not have much changes.
+              </li>
+              <li>
+                If users had any queries or doubts regarding Aadhaar processes,
+                they figured the answers through the extremely detailed FAQs
+                section in the Aadhaar website.
+              </li>
+              <li>
+                Most users visited Aadhaar centres to update only their
+                photographs, as address change is available online.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
 
         <div class="row">
           <div class="col-xs-12">
@@ -299,8 +550,7 @@
                   href="../projects/campushub_mini.html"
                   class="client-logo campushub-logo"
                   ><span class="tooltip-project" data-tooltip="campushub"
-                    ><span style="color: white">CampusHub UX</span
-                    ><img
+                    >CampusHub UX<img
                       src="../assets/img/project images/CampusHub/Cover.png"
                       alt="campushub cover" /></span
                 ></a>
@@ -319,20 +569,32 @@
       </main>
 
       <footer class="footer" role="contentinfo">
+        <!-- <div class="row" style="margin-bottom: 6rem">
+          <div class="col-xs-12">
+            <lottie-player
+              id="footballlottie"
+              src="assets/img/football net.json"
+            ></lottie-player>
+          </div>
+        </div> -->
+
         <div class="row">
           <div class="col-xs-12 col-sm-6">
-            <h3>Favourite Quote</h3>
+            <h3>Tool Knowledge</h3>
             <p class="quote">
-              "We don't read and write poetry because it's cute. We read and
-              write poetry because we are members of the human race. And the
-              human race is filled with passion. And medicine, law, business,
-              engineering, these are noble pursuits and necessary to sustain
-              life. But poetry, beauty, romance, love, these are what we stay
-              alive for" <br />
-              <span class="font-heavy"
-                >Robin Williams :: Dead Poets Society</span
-              >
+              ~Figma ~Adobe CC(PS, XD, AE, AI) ~Webflow ~Lottiefiles ~Frontend
+              Dev
             </p>
+            <p>
+              This website was designed and developed by<br />
+              yours truly 🧑🏻‍💻
+            </p>
+
+            <!-- <h3>Skills</h3>
+            <p class="quote">
+              ~Quick Learning ~Critical thinking ~Problem solving ~Analytical
+              thinking ~Collaboration ~Communication
+            </p> -->
           </div>
           <div class="col-xs-12 col-sm-3">
             <h3>More Work</h3>
@@ -364,6 +626,12 @@
                   >Email ⟶</a
                 >
               </li>
+
+              <!-- <li>
+                <a href="https://www.instagram.com/shanmu__s4/" target="_blank"
+                  >Instagram ⟶</a
+                >
+              </li> -->
             </ul>
           </div>
         </div>
