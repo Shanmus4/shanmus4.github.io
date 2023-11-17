@@ -1684,6 +1684,17 @@ video {
   overflow: hidden;
 }
 
+.rightsideimage {
+  height: 85%;
+  position: relative;
+  top: 48px;
+  overflow: hidden;
+  border-radius: 9px;
+  margin-right: 10px;
+  object-fit: cover;
+  margin-left: auto;
+}
+
 .galleryimage {
   height: 100%; /* this ensures that the images don't exceed the height of the container */
   object-fit: cover; /* this ensures that the images fill the container while maintaining their aspect ratio */
