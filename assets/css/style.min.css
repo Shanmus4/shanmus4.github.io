@@ -1127,7 +1127,7 @@ textarea {
   opacity: 1;
 }
 .header {
-  padding: 16px;
+  padding: 8px;
 }
 .logo {
   padding: 12px 0;
@@ -1220,7 +1220,7 @@ nav a.active:after {
   position: relative;
   display: block;
   max-width: 100%;
-  margin: 3.2rem 0 0;
+  margin: 0.8rem 0 0;
 }
 .intro {
   margin-top: 2rem;
@@ -1340,10 +1340,10 @@ nav a.active:after {
     transition: all 0.1s ease;
   }
 }
-.client-logo {
+/* .client-logo {
   margin-left: 4.2rem;
-}
-.client-logo:before {
+} */
+/* .client-logo:before {
   content: "";
   position: absolute;
   margin: 3rem 0;
@@ -1351,8 +1351,8 @@ nav a.active:after {
   width: 48px;
   height: 48px;
   transform: translateY(-50%);
-}
-.campushub-logo.client-logo:before {
+} */
+/* .campushub-logo.client-logo:before {
   background: url(../img/sprite.svg) 0 -32px no-repeat;
 }
 .aadhaar-logo.client-logo:before {
@@ -1363,8 +1363,8 @@ nav a.active:after {
 }
 .studio-logo.client-logo:before {
   background: url(../img/sprite.svg) 0 -134px no-repeat;
-}
-@media only screen and (max-width: 48em) {
+} */
+/* @media only screen and (max-width: 48em) {
   .client-logo:before {
     content: "";
     position: absolute;
@@ -1387,7 +1387,7 @@ nav a.active:after {
     background: url(../img/sprite.svg) 0 -32px no-repeat;
     transform: translateY(-50%);
   }
-}
+} */
 
 .tooltip-project {
   position: relative;
@@ -1683,8 +1683,6 @@ video {
   margin-bottom: 24px;
   overflow: hidden;
 }
-
-
 
 .galleryimage {
   height: 100%; /* this ensures that the images don't exceed the height of the container */
